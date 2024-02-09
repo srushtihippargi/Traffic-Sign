@@ -1,6 +1,6 @@
 # Traffic Sign classification for Autonomous Vehicles    
 
-The project designed and implemented a Sequential model leveraging cascading convolutional layers with varying filter sizes. The architecture comprised 16 filters of size 3x3, followed by 32 filters of 3x3, then 64 filters of 3x3, and finally, 128 filters of 3x3. This hierarchical structure allowed the model to capture increasingly complex features at different abstraction levels.
+The project designed and implemented a Sequential model leveraging cascading convolutional layers with varying filter sizes. The architecture comprised 16 filters of size 3x3, followed by 32 filters of 3x3, then 64 filters of 3x3, and finally, 128 filters of 3x3. 
 
 Interspersed with the convolutional layers were max-pooling layers of size 2x2, which served to downsample the feature maps, reducing computational complexity while preserving essential information. Additionally, batch normalization was incorporated into the model to improve stability during training by normalizing the activations of each layer.
 
